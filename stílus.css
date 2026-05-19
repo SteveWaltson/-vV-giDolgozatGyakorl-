@@ -52,3 +52,17 @@ img{
     border-radius: 1rem;
     box-sizing: border-box;
 }
+@media screen and (max-width: 600px){
+    body{
+        width: 100%;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .szoveg{
+        grid-template-columns: 1fr;
+    }
+    
+}
