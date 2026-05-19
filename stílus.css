@@ -1,8 +1,10 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0fdf4;
+    color:#1a3e2e;
 }
 nav{
-    background-color: #f0fdf4;
+    background-color: #10b981;
     padding: 1rem;
     margin-bottom: 2rem;
 }
@@ -10,8 +12,8 @@ a{
     color: white;
     background-color: #059669;
     text-decoration: none;
-    padding: 0,75rem 0 0,75rem 0;
-    padding: 0 0,5 0 0,5;
+    padding: 0.75em 1.5em 0.75em 1.5em;
+    margin: 0 0.5em 0 0.5em;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -20,22 +22,24 @@ hover a{
 }
 h1{
     text-align: center;
-    background-color: lightblue;
+    background-color: rgb(26, 255, 0);
     color: white;
-    padding: 1,5em;
+    padding: 1.5em;
     margin-bottom: 2em;
     font-size: 3em; 
 }
 article{
     max-width: 900px;
-    display: block;
+    display: center;
     padding: 0 1em 0 1em;
 }
-selection{
+section{
     background-color: #e6fef1;
+    padding: auto;
     border-left: 3px solid green;
     margin-bottom: 2em;
-    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1)
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+    border-radius: 5%;
 }
 .szoveg{
     display: grid;
@@ -45,12 +49,17 @@ selection{
 h2{
     color:#065f46;
     margin-top: 0;
+    padding: auto;
     font-size: 1.8rem;
+    margin-left: 30px;
 }
 img{
     width: 100%;
     border-radius: 1rem;
+    margin-top: 10px;
+    box-shadow: 0px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    padding: auto;
 }
 @media screen and (max-width: 600px){
     body{
